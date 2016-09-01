@@ -1,6 +1,10 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+kramdown:
+    input: GFM
+    syntax_highlighter: rogue
+    syntax_highlighter_opts:
+        css_class: 'highlight'
+
 
 # Permalinks
 permalink:        pretty
