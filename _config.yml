@@ -10,11 +10,12 @@ kramdown:
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+avatar:           'SitePic.jpg'
+title:            'Santhosh Kumar'
+tagline:          'Personal Website'
+description:      '5th year Dual Degree (BTech, MTech integrated), Electrical Engineering Department, IIT Madras'
 url:              
-baseurl:          "" 
+baseurl:          "/" 
 
 author:
   name:           'Santhosh Kumar Ramakrishnan'
