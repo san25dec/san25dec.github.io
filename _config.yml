@@ -10,7 +10,7 @@ kramdown:
 permalink:        pretty
 
 # Setup
-avatar:           'SitePic.jpg'
+avatar:           'https://raw.githubusercontent.com/san25dec/san25dec.github.io/master/_images/SitePic.jpg'
 title:            'Santhosh Kumar'
 tagline:          'Personal Website'
 description:      '5th year Dual Degree (BTech, MTech integrated), Electrical Engineering Department, IIT Madras'
