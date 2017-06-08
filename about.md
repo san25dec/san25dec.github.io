@@ -4,6 +4,7 @@ title: Biography
 permalink: /biography/
 redirect_from: 
     - /
+    - san25dec.github.io
 ---
 
 I am passionate about the fields of Computer Vision and Deep Learning. I am
