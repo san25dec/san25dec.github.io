@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Biography
-permalink: /biography
+permalink: /biography/
 redirect_from: 
     - /
 ---
