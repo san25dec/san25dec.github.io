@@ -27,8 +27,8 @@ avatar:           'https://raw.githubusercontent.com/san25dec/san25dec.github.io
 title:            'Santhosh Kumar'
 tagline:          'Personal Website'
 description:      '5th year Dual Degree (BTech, MTech integrated), Electrical Engineering Department, IIT Madras'
-url: san25dec.github.io             
-baseurl:          "/" 
+url: ""             
+baseurl:          "" 
 resumelink: "https://github.com/san25dec/san25dec.github.io/blob/master/_files/SanthoshKumarFull.pdf"
 author:
   name:           'Santhosh Kumar Ramakrishnan'
