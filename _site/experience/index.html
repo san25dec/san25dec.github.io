@@ -11,7 +11,7 @@
 
   <title>
     
-      404: Page not found &middot; Santhosh Kumar
+      Experience &middot; Santhosh Kumar
     
   </title>
   
@@ -76,7 +76,7 @@
       
         
           
-            <a class="sidebar-nav-item" href="/experience/">Experience</a>
+            <a class="sidebar-nav-item active" href="/experience/">Experience</a>
           
           
 
@@ -135,8 +135,41 @@
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+  <h1 class="page-title">Experience</h1>
+  <h2 id="summer-internship-2016">Summer Internship 2016</h2>
+<p><em>SURGE, IIT Kanpur</em></p>
+
+<p>I worked on Visual Question Answering under the guidance of <a href="http://www.grvsharma.com/research.html">Dr. Gaurav Sharma</a>.
+Current state of the art methods use CNNs trained on the ImageNet task (VGGNet, GoogleNet,
+ etc). These are independent of the text representation used. An image representation that is aligned with the text representation may improve the VQA performance of existing systems. 
+The VQA baseline we used was the <a href="https://github.com/VT-vision-lab/VQA_LSTM_CNN"><em>deeper LSTM + Normalized CNN</em></a>  model from the original VQA dataset paper.
+We used <a href="https://github.com/ryankiros/skip-thoughts"><em>SkipThought vectors</em></a> based sentence representation, and aligned the image 
+representation with it. Two methods of alignment were explored:</p>
+
+<ul>
+  <li>Supervised: Learnt a linear projection using triplet hinge loss and backpropagation</li>
+  <li>Unsupervised: Learnt a linear projection using Canonical Correlation Analysis</li>
+</ul>
+
+<p>We found that the aligned features were complementary to the original features, and a 
+late fusion model obtained <strong>1.5%</strong> improvement over the baseline model.</p>
+
+<h2 id="winter-internship-2014">Winter Internship 2014</h2>
+<p><em>HyperVerge Inc.</em></p>
+
+<p>I worked on developing modules for generating object proposals in images. I explored the prototypes (implemented a few) of state of the art models such as Selective Search, Multi-scale Combinatorial Grouping, Objectness, etc.
+By evaluating their effectiveness on our specific scenarios, I selected the best model and
+implemented it in C++ for testing on real time applications.</p>
+
+<h2 id="summer-internship-2014">Summer Internship 2014</h2>
+<p><em>HyperVerge Inc.</em></p>
+
+<p>Our team developed video surveillance modules for performing tasks such as background
+subtraction and object tracking. In background subtraction, we implemented several models 
+and evaluated them on the existing datasets. We further ported the best performing model on
+CUDA, achieving the necessary speed for real-time applications. In object tracking, we
+implemented a few existing models and evaluated them on datasets such as VOT2013, PETS2009, etc.</p>
+
 </div>
 
     </div>
