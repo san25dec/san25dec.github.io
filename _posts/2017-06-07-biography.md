@@ -3,7 +3,7 @@ layout: post
 title: Biography
 ---
 
-I am Santhosh Kumar and I completed my Dual Degree (BTech + MTech integrated) in the [Electrical
+I completed my Dual Degree (BTech + MTech integrated) in the [Electrical
  Engineering Department](http://www.ee.iitm.ac.in/), IIT Madras in 2017.
 The topic of my masters thesis was **An Empirical Evaluation of Visual
 Question Answering for Novel Objects** where I was advised by 
