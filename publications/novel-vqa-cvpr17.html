@@ -1,0 +1,103 @@
+---
+title: "An Empirical Evaluation of Visual Question Answering for Novel Objects "
+permalink: /publications/novel-vqa-cvpr17
+---
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<table style="margin: 0 auto; font-family: helvetica; color: rgb(51, 51, 51)">
+	<tbody>
+		<tr> 
+			<td style="vertical-align: middle; background-color: rgba(255, 255, 255, 1); text-align: left; padding: 50px">
+				<img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/IITM-logo.jpg" height="150" width="150"/>
+			</td>
+			<td style="vertical-align: middle; background-color: rgba(255, 255, 255, 1); text-align: center">
+				<h1 class="page-title", style="font-size:200%">{{page.title}}</h1>
+                <p style="vertical-align: middle; background-color: rgba(255, 255, 255, 0); text-align: center; font-weight: 400; color:rgb(0, 153, 255) "> Santhosh K. Ramakrishnan<sup>1, 2</sup>, Ambar Pal<sup>1</sup>, Gaurav Sharma<sup>1</sup>, Anurag Mittal<sup>2</sup> </p>
+                <p style="vertical-align: middle; background-color: rgba(255, 255, 255, 0); text-align: center; font-weight: 400; color:rgb(0, 153, 255) "> <sup>1</sup>IIT Madras &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup>2</sup>IIT Kanpur </p>
+
+				<p style="vertical-align: middle; background-color: rgba(255, 255, 255, 0); text-align: center; font-weight: 400; color:rgb(51, 51, 51) "> To appear in CVPR 2017 (Poster) </p>
+
+			</td>
+
+			<td style="vertical-align: middle; background-color: rgba(255, 255, 255, 1); text-align: right; padding:50px">
+				<img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/IITK-logo.jpg" height="150" width="150"/>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="font-family: helvetica; color: rgb(80, 80, 80); background-color: rgb(240, 240, 240); padding:10px 50px 10px 50px">
+	<h2 style="font-size: 150%; font-weight:400"> Abstract: </h2>
+	<p style="font-weight: 150" > We study the problem of answering questions about images in the harder setting, where the test questions and corresponding images contain novel objects, which were not queried about in the training data. Such setting is inevitable in real world—owing to the heavy tailed distribution of the visual categories, there would be some objects which would not be annotated in the train set. We show that the performance of two popular existing methods drop significantly (up to 28%) when evaluated on novel objects cf. known objects. We propose methods which use large existing external corpora of (i) unlabeled text, i.e. books, and (ii) images tagged with classes, to achieve novel object based visual question answering. We do systematic empirical studies, for both an oracle case where the novel objects are known textually, as well as a fully automatic case without any explicit knowledge of the novel objects, but with the minimal assumption that the novel objects are semantically related to the existing objects in training. The proposed methods for novel object based visual question answering are modular and can potentially be used with many visual question answering architectures. We show consistent improvements with the two popular architectures and give qualitative analysis of the cases where the model does well and of those where it fails to bring improvements. </p>
+</div>
+
+<table style="margin: 0 auto; font-family: helvetica; color: rgb(51, 51, 51); text-align: center">
+    <tbody>
+        <tr>
+            <td style="vertical-align: middle; background-color: rgba(255, 255, 255, 1); text-align: center; padding: 10px 50px 10px 50px">
+                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/Example.png" height=250 style="border: 1px solid black">
+            </td>
+        </tr>
+        <tr style="vertical-align: middle; background-color: rgba(255, 255, 255, 1); text-align: left; padding: 10px 10px 10px 10px">
+            <td style="font-weight: 150"> We are interested in answering questions about images containing objects not seen at training. </td>
+        </tr>
+    </tbody>
+</table> 
+
+<table style="margin: 0 auto; font-family: helvetica; color: rgb(51, 51, 51); text-align: left; background-color: rgb(240, 240, 240)">
+	<tbody>
+		<tr> 
+			<td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+				<a href="https://arxiv.org/pdf/1704.02516.pdf">
+                    <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/novel-vqa-cvpr17.png" height = 200 width = 150 style="border: 1px solid black">
+                </a>
+			</td>
+			
+			<td style="vertical-align: middle; text-align: left; padding: 0px 120px 0px 0px;  ">
+				<p style="border: 1px dotted black; padding: 10px 10px 10px 10px; font-family: courier new"> @article{<br>
+	  &nbsp;&nbsp;&nbsp;&nbsp;ramakrishnan2017empirical, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;title={An Empirical Evaluation of Visual Question Answering for Novel Objects}, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;author={Ramakrishnan, Santhosh K and Pal, Ambar and Sharma, Gaurav and Mittal, Anurag}, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:1704.02516}, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;year={2017} <br>
+}				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="margin: 0 auto; font-family: helvetica; color: rgb(51, 51, 51); text-align: left; background-color: rgb(255, 255, 255)">
+	<tbody>
+        <tr>
+            <td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+                <h2 style="font-size: 150%; font-weight:400"> Qualitative Results: </h2>
+            </td>
+		<tr> 
+			<td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QualitativeResults.png" height = 420 style="border: 1px solid black">
+			</td>
+        </tr>
+	</tbody>
+</table>
+
+<table style="margin: 0 auto; font-family: helvetica; color: rgb(51, 51, 51); text-align: left; background-color: rgb(255, 255, 255)">
+	<tbody>
+        <tr>
+            <td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+                <h2 style="font-size: 150%; font-weight:400"> Quantitative Results: </h2>
+            </td>
+		<tr> 
+			<td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QuantitativeResults.png" width = 1170 style="border: 1px solid black">
+			</td>
+        </tr>
+	</tbody>
+</table>
+
+
+
+</body>
+</html>
