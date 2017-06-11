@@ -52,11 +52,11 @@
 			</td>
 			
 			<td style="vertical-align: middle; text-align: left; padding: 0px 120px 0px 0px;  ">
-				<p style="border: 1px dotted black; padding: 10px 10px 10px 10px; font-family: courier new"> @article{<br>
+				<p style="border: 1px dotted black; padding: 10px 10px 10px 10px; font-family: courier new"> @inproceedings{<br>
 	  &nbsp;&nbsp;&nbsp;&nbsp;ramakrishnan2017empirical, <br>
       &nbsp;&nbsp;&nbsp;&nbsp;title={An Empirical Evaluation of Visual Question Answering for Novel Objects}, <br>
       &nbsp;&nbsp;&nbsp;&nbsp;author={Ramakrishnan, Santhosh K and Pal, Ambar and Sharma, Gaurav and Mittal, Anurag}, <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;journal={arXiv preprint arXiv:1704.02516}, <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;journal={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, <br>
       &nbsp;&nbsp;&nbsp;&nbsp;year={2017} <br>
 }				</p>
 			</td>
@@ -75,6 +75,12 @@
                 <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QualitativeResults.png" height = 420 style="border: 1px solid black">
 			</td>
         </tr>
+        <tr>
+            <td style="vertical-align: middle; text-align: center; padding: 10px 50px 10px 50px">
+                <p> Some qualitative results for our proposed model (P) and the baseline (B) are shown along with the ground truth (GT). In the first row, we can observe that P has successfully induced the concepts of <i>necktie, apple, event</i> and <i>flavor</i> into the VQA framework whereas the B has failed to reason based on them. Some of the failure cases of P are illustrated in the second row. It has failed to induce the concepts of <i>restaurant</i> and <i>direction</i>. We also feel that in the last 2 cases, it has predicted purely based on the text modelling. For example, in the fourth case it says that the plane is in motion and in the fifth case it says the ink is red. This could be because it witnessed similar textual examples and the image is not convincing enough for it to say otherwise. </p>
+            </td>
+        </tr>
+
 	</tbody>
 </table>
 
@@ -86,13 +92,23 @@
             </td>
 		<tr> 
 			<td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
-                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QuantitativeResults.png" width = 1170 style="border: 1px solid black">
+                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QuantitativeResults1.png" width = 1170 style="border: 1px solid black">
 			</td>
         </tr>
+        <tr> 
+			<td style="vertical-align: middle; text-align: left; padding: 10px 50px 10px 50px">
+                <img src="https://github.com/san25dec/san25dec.github.io/raw/master/_images/QuantitativeResults2.png" width = 1170 style="border: 1px solid black">
+			</td>
+        </tr>
+        <tr>
+            <td style="vertical-align: middle; text-align: center; padding: 10px 50px 10px 50px">
+                <p> Results are reported on the different question categories for architectures 1 and 2. <i> Feat </i> refers to the image feature used and can be one of <i> VGGNet(VGG), inception(INC), Early Fusion(EF)</i> and <i>Late Fusion(LF)</i> of <i>VGG, INC</i>. <i> Aux </i> refers to the auxilliary data used for pre-training and can be <i>none, text only(text)</i> or <i>weak paired image and text(text+im)</i>. <i> Vocab </i> refers to the vocabulary used for encoding the question words and can be one of <i> train only (train), oracle, general (gen)</i> and <i> general expanded from oracle </i>. The baseline model uses <i> oracle / general </i> vocabulary and no auxiliary data. Using text data with the <i> oracle / general vocabulary to pretrain the autoencoder gives consistent improvements over the baseline, especially in the <i> Novel </i> and <i> Yes/No </i> categories. Using weak paired data to pretrain the autoencoders produces marginal improvements over the text only training in some cases, but generally performs worse. This is possibly due to the noisy pairing of text and image data. </p> 
+            </td>
+        </tr>
+
+
 	</tbody>
 </table>
-
-
 
 </body>
 </html>
