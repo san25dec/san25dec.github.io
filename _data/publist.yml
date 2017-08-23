@@ -5,7 +5,6 @@
   venue: To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, July 2017 (poster)
   highlight: 0
   project: "novel-vqa-cvpr17"    
-  code: "https://github.com/san25dec/novel-vqa"
 
 - title: "CoMaL Tracking: Tracking Points at the Object Boundaries"
   description: ""
