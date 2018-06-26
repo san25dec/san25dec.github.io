@@ -2,14 +2,16 @@
   description: ""
   authors: Santhosh K. Ramakrishnan, Ambar Pal, Gaurav Sharma, Anurag Mittal 
   url: https://arxiv.org/pdf/1704.02516.pdf
-  venue: To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, July 2017 (poster)
+  venue: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, July 2017 
   highlight: 0
   project: "novel-vqa-cvpr17"    
+  code: "https://github.com/san25dec/novel-vqa/"
+  data: "https://drive.google.com/drive/folders/0B_zNnwTk0MVydVRtQTgtbTl5M0k"
 
 - title: "CoMaL Tracking: Tracking Points at the Object Boundaries"
   description: ""
   authors: Santhosh K. Ramakrishnan, Swarna Kamlam Ravindran, Anurag Mittal 
   url: https://arxiv.org/pdf/1706.02331.pdf
-  venue: To appear, 1st Joint BMTT-PETS Workshop on Tracking and Surveillance, Honolulu, July 2017 (in conjunction with CVPR 2017)
+  venue: 1st Joint BMTT-PETS Workshop on Tracking and Surveillance, Honolulu, July 2017 (in conjunction with CVPR 2017)
   highlight: 0
   project: ""

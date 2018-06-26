@@ -34,6 +34,13 @@ permalink: /publications/
   </a>
   </p>
   {% endif %}
-
+  
+  {% if publi.data != "" and publi.data != nil %}
+  <p style="border: 1px solid steelblue; width: 60px; text-align: center; height: 30px; line-height: 30px; border-radius: 10px; color: steelblue; display: inline-block; font-size:70%">
+  <a href="{{publi.baseurl}}{{publi.data}}">
+    Data
+  </a>
+  </p>
+  {% endif %}
 {% endfor %}
 
